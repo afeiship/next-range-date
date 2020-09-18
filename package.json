@@ -1,0 +1,40 @@
+{
+  "name": "@feizheng/next-range-date",
+  "version": "1.0.0",
+  "description": "Get a date range.",
+  "homepage": "https://github.com/afeiship/next-range-date",
+  "author": {
+    "name": "afei",
+    "email": "1290657123@qq.com"
+  },
+  "scripts": {
+    "build": "gulp",
+    "test": "jest",
+    "start": "node ./express.js"
+  },
+  "main": "dist/next-range-date.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@feizheng/gulp-pkg-header": "^1.0.4",
+    "@feizheng/next-js-core2": "^2.6.0",
+    "@feizheng/rake-git": "^1.2.1",
+    "del": "^5.1.0",
+    "express": "^4.17.1",
+    "gulp": "^4.0.2",
+    "gulp-debug": "^4.0.0",
+    "gulp-header": "^2.0.9",
+    "gulp-ignore": "^3.0.0",
+    "gulp-load-plugins": "^2.0.4",
+    "gulp-rename": "^2.0.0",
+    "gulp-size": "^3.0.0",
+    "gulp-uglify": "^3.0.2",
+    "jest": "^26.4.2",
+    "prettier": "^2.1.2",
+    "uglify-js": "3.10.4",
+    "uglify-save-license": "^0.4.1",
+    "yargs": "^16.0.3"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  }
+}
