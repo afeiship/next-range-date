@@ -1,6 +1,6 @@
 (function () {
   var global = global || this || window || Function('return this')();
-  var nx = global.nx || require('@feizheng/next-js-core2');
+  var nx = global.nx || require('@jswork/next');
 
   nx.rangeDate = function (inStart, inEnd, inIsToJson) {
     var start = new Date(inStart);
@@ -11,6 +11,7 @@
     }
     return result;
   };
+
 
   if (typeof module !== 'undefined' && module.exports) {
     module.exports = nx.rangeDate;
