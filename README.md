@@ -30,7 +30,7 @@ const json = nx.rangeDate(start, end, true);;
   '2020-09-07T00:00:00.000Z',
   '2020-09-08T00:00:00.000Z'
 ];
-/*
+*/
 ```
 
 ## license
