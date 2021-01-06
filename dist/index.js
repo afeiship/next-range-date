@@ -2,13 +2,13 @@
  * name: @jswork/next-range-date
  * description: Get a date range.
  * homepage: https://github.com/afeiship/next-range-date
- * version: 1.0.0
- * date: 2020-11-20 10:59:07
+ * version: 1.0.1
+ * date: 2021-01-06 22:36:51
  * license: MIT
  */
 
 (function () {
-  var global = global || this || window || Function('return this')();
+  var global = global || window || Function('return this')();
   var nx = global.nx || require('@jswork/next');
 
   nx.rangeDate = function (inStart, inEnd, inIsToJson) {
