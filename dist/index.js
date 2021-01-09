@@ -2,8 +2,8 @@
  * name: @jswork/next-range-date
  * description: Get a date range.
  * homepage: https://github.com/afeiship/next-range-date
- * version: 1.0.1
- * date: 2021-01-06 22:36:51
+ * version: 1.0.2
+ * date: 2021-01-09 16:45:14
  * license: MIT
  */
 
