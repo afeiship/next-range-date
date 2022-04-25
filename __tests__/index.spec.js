@@ -18,5 +18,17 @@
         '2020-09-08T00:00:00.000Z'
       ]);
     });
+
+    test('create date use array', () => {
+      const start = [2022, 4, 1];
+      const end = [2022, 4, 4];
+      const json = nx.rangeDate(start, end, true);
+      expect(json).toEqual([
+        '2022-04-01T00:00:00.000Z',
+        '2022-04-02T00:00:00.000Z',
+        '2022-04-03T00:00:00.000Z',
+        '2022-04-04T00:00:00.000Z',
+      ]);
+    });
   });
 })();
